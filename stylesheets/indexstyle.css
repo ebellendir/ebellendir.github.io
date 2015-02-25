@@ -8,6 +8,10 @@ body {
 	font-family: "Times New Roman";
 
 }
+#login{
+	float: right;
+	padding-left: 50px;
+}
 
 h1 {
 	text-align: center;
