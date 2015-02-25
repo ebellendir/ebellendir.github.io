@@ -1,0 +1,69 @@
+body {
+	color: white;
+	width: 960px;
+	margin: 0 auto;
+	background-image: url(../images/chicagoskyline.jpg);
+	background-size: cover;
+	background-position: top center;
+	font-family: "Times New Roman";
+
+}
+
+h1 {
+	text-align: center;
+	border-bottom: solid white;
+	padding: 10px;
+}
+
+#summary {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 26px;
+}
+
+td {
+	width: 320px;
+	height: 320px;
+	font-size: 28px;
+	color: red;
+	text-align: center;
+	font-family: "Arial Black";
+}
+
+a{
+	display:block;
+	width: 320px;
+	height: 320px;
+}
+
+#home {
+	background-image: url(../images/home.jpg); 
+	background-size: cover;
+}
+
+#condo {
+	background-image: url(../images/condo.jpg); 
+	background-size: cover;
+}
+
+#townhome {
+	background-image: url(../images/townhome.jpg); 
+	background-size: cover;
+}
+
+#apartment {
+	background-image: url(../images/apartment.jpg); 
+	background-size: cover;
+}
+
+#vacation {
+	background-image: url(../images/vacation.jpg); 
+	background-size: cover;
+}
+
+#fraternity {
+	background-image: url(../images/fraternity.jpg); 
+	background-size: cover;
+}
+
