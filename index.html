@@ -1,53 +1,110 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 	<title>PropertyDweller</title>
 	<meta charset="utf 8">
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+	
+	<link rel="stylesheet" type="text/css" href="stylesheets/fontawesome.css">
+	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+	
 	<link rel="stylesheet" type="text/css" href="stylesheets/indexstyle.css">
-
 </head>
 
 <body>
-  
-  <div id="login">
-    <img src="images/login.jpg">
+<!-- This is the start of the navigation menu -->
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" >Property Dweller</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Register</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><i class="fa fa-user"></i>Login</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+ <!-- The header using bootstrap jumbotron -->
+  <div class="jumbotron" id="PDtoprow">
+  	<div class="container">
+		<h1>Property Dweller</h1>
+		<p id="valuestatement">The dashboard for your home. Whether it be a condo, single-family home, vacation home, timeshare, or fraternity we have the tools to provide organization for your living arrangement.
+		</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more >></a>
+	</div>
   </div>
 
-	<h1>P<span style ="color:blue">roperty</span> D<span style ="color:blue">weller</span></h1>
+<!-- The start of the columns -->
+  <div class="container">	
+	<div class="row">
 
-	<div id="valuestatement">
-		<p>The dashboard for your home. Whether it be a condo, single-family home, vacation home, timeshare, or fraternity we have the tools to provide organization for your living arrangement.
+	  <div class="col-md-2">
+	  </div>
+
+	  <div class="col-md-8" id="PDcentercolumn">
+			
+			<table class="table-bordered" id="summary">
+				 <tr>
+		     		 <td class="PDmeunu" id="home">  
+		     		 	<a class="PDmenimage" href="home.html">Single Family Residence</a>
+		     		 </td>  
+					 <td class="PDmeunu" id="condo">   
+		     		 	<a class="PDmenimage" href="condo.html">Condo Association</a>
+		     		 </td>
+		     		 <td class="PDmeunu" id="townhome">     
+		     		 	<a class="PDmenimage" href="townhome.html">Townhome or Coop </a>
+		     		 </td>
+		    	</tr>
+		   		 <tr>
+	 	     		 <td class="PDmeunu" id="apartment">   
+		     		 	<a class="PDmenimage" href="apartment.html">Apartment Complex</a>
+					 </td>
+					 <td class="PDmeunu" id="vacation">    
+		     		 	<a class="PDmenimage" href="vacation.html">Vacation Home / Timeshare</a>
+		     		 </td>
+		     		 <td class="PDmeunu" id="fraternity">   
+		     		 	<a class="PDmenimage" href="fraternity.html">Fraternity / Sorority</a>
+		     		 </td>
+		   		</tr>
+			</table>
+			<p></p>
+	   </div>
+
+	  </div>
+
+	  <div class="col-md-2">
+	  </div>
+	  </div>
+
+<footer class="footer">
+	<div class="container">
+		<p>
+			<a href="#">Conditions of Use</a> |
+			<a href="#">Privacy Notice</a> |
+			<a href="#">Advertising</a> |
+			<a href="#">Ap Developers</a> |
+			<a href="#">Careers</a> |
+			<a href="#">Contact Us</a> |
 		</p>
 	</div>
-
-	<div id="summary">
-		<h3>Get Started</h3>
-		
-		<table>
-			 <tr>
-	     		 <td id="home">  
-	     		 	<a href="home.html">Single Family Residence</a>
-	     		 </td>  
-				 <td id="condo">   
-	     		 	<a href="condo.html">Condo Association</a>
-	     		 </td>
-	     		 <td id="townhome">     
-	     		 	<a href="townhome.html">Townhome or Coop </a>
-	     		 </td>
-	    	</tr>
-	   		 <tr>
- 	     		 <td id="apartment">   
-	     		 	<a href="apartment.html">Apartment Complex</a>
-				 </td>
-				 <td id="vacation">    
-	     		 	<a href="vacation.html">Vacation Home / Timeshare</a>
-	     		 </td>
-	     		 <td id="fraternity">   
-	     		 	<a href="fraternity.html">Fraternity / Sorority</a>
-	     		 </td>
-	   		</tr>
-		</table>
-	</div>
+</footer>
 	
 </body>
 

@@ -1,23 +1,31 @@
 body {
-	color: white;
-	width: 960px;
+	color: black;
 	margin: 0 auto;
+	font-family: "Times New Roman";
+}
+
+#PDtoprow{
+	color: white;
 	background-image: url(../images/chicagoskyline.jpg);
 	background-size: cover;
-	background-position: top center;
-	font-family: "Times New Roman";
-
-}
-#login{
-	float: right;
-	padding-left: 50px;
+	background-position: center center;
 }
 
 h1 {
 	text-align: center;
 	border-bottom: solid white;
-	padding: 10px;
+	padding-bottom: 2px;
 }
+
+#valuestatement{
+	background-color: gray;
+	padding: 5px;
+}
+
+#PDcentercolumn{
+	background-color: white;
+}
+
 
 #summary {
 	text-align: center;
@@ -26,19 +34,18 @@ h1 {
 	font-size: 26px;
 }
 
-td {
-	width: 320px;
-	height: 320px;
+.PDmeunu {
+	width: 300px;
+	height: 300px;
 	font-size: 28px;
-	color: red;
 	text-align: center;
 	font-family: "Arial Black";
 }
 
-a{
+.PDmenimage{
 	display:block;
-	width: 320px;
-	height: 320px;
+	width: 300px;
+	height: 300px;
 }
 
 #home {
@@ -69,5 +76,12 @@ a{
 #fraternity {
 	background-image: url(../images/fraternity.jpg); 
 	background-size: cover;
+}
+
+footer {
+	color: black;
+	text-align: center;
+	background-color: white;
+	padding: 2px;
 }
 
