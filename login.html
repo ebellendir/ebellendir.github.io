@@ -2,8 +2,12 @@
 <html>
 
 <head>
-	<title>Single Family Residence</title>
+	<title>Login</title>
 	<meta charset="utf 8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
 	
@@ -44,19 +48,20 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<div id="valuestatement">
-		<p>Create a dashboard to keep track of household projects and activities.
-		</p>
-	</div>
-
-	<div id="summary">
-	<h3>Tools Include</h3>
-    <ul>
-      <li>Organizational Calendar</li>
-      <li>Home Related Documents</li>
-      <li>Project Budget</li>
-      <li>Project Wishlist</li>
-    </ul>	
+	<div class="container">
+		<form class="form-signin">
+			<h2 class="form-signin-heading">Please Sign in</h2>
+			<label for="inputEmail" class="sr-only">Email Address or User Name </label>
+			<input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required autofocus>
+			<label for="inputPassword" class="sr-only">Password</label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" value="remember-me">
+					"Remember me
+						"
+				</label>
+			</div>
 	</div>
 
 </body>
