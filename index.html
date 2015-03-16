@@ -11,89 +11,90 @@
 	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
 	
 	<link rel="stylesheet" type="text/css" href="stylesheets/indexstyle.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/navbodystyle.css">
 </head>
 
 <body>
-<!-- This is the start of the navigation menu -->
+	<!-- This is the start of the navigation menu -->
 
 	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" >Property Dweller</a>
-	    </div>
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" >Property Dweller</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Register</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="login.html"><i class="fa fa-user"></i>Login</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>  <!-- End of the Nav bar --> 
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Register</a></li>
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="login.html"><i class="fa fa-user"></i>Login</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-
- <!-- The header using bootstrap jumbotron -->
-  <div class="jumbotron" id="PDtoprow">
-  	<div class="container">
-		<h1>Property Dweller</h1>
-		<p id="valuestatement">The dashboard for your home. Whether it be a condo, single-family home, vacation home, timeshare, or fraternity we have the tools to provide organization for your living arrangement.
-		</p>
-		<a class="btn btn-primary btn-lg" href="learnmore.html" role="button">Learn more >></a>
+	<!-- The header using bootstrap jumbotron -->
+	<div class="jumbotron" id="PDtoprow">
+		<div class="container">
+			<h1>Property Dweller</h1>
+			<p id="valuestatement">The dashboard for your home. Whether it be a condo, single-family home, vacation home, timeshare, or fraternity we have the tools to provide organization for your living arrangement.
+			</p>
+			<a class="btn btn-primary btn-lg" href="learnmore.html" role="button">Learn more >></a>
+		</div>
 	</div>
-  </div>
 
-<!-- The start of the columns -->
-  <div class="container">	
-	<div class="row">
+	<!-- The start of the columns -->
+	<div class="container">	
+		<div class="row">
 
-	  <div class="col-md-1">
-	  </div>
+			<div class="col-md-1"> <!-- Left hand column -->
+			</div>
 
-	  <div class="col-md-10">
-			
-			<table class="table-bordered" id="PDtable">
-				 <tr>
-		     		 <td class="PDmeunu">
-		     		 	<a class="PDcell" id="home" href="home.html">Single Family Residence</a>
-		     		 </td>  
-					 <td class="PDmeunu">   
-		     		 	<a class="PDcell" id="condo" href="condo.html">Condo Association</a>
-		     		 </td>
-		     		 <td class="PDmeunu">     
-		     		 	<a class="PDcell" id="townhome" href="townhome.html">Townhome or Coop </a>
-		     		 </td>
-		    	</tr>
-		   		 <tr>
-	 	     		 <td class="PDmeunu">   
-		     		 	<a class="PDcell" id="apartment" href="apartment.html">Apartment Complex</a>
-					 </td>
-					 <td class="PDmeunu">    
-		     		 	<a class="PDcell" id="vacation" href="vacation.html">Vacation Home / Timeshare</a>
-		     		 </td>
-		     		 <td class="PDmeunu">   
-		     		 	<a class="PDcell" id="fraternity" href="fraternity.html">Fraternity / Sorority</a>
-		     		 </td>
-		   		</tr>
-			</table>
-			<p></p>
-	  </div>
+			<div class="col-md-10"> <!-- Main column -->
 
+				<table class="table-bordered" id="PDtable"> <!-- See style sheet, PDcell makes whole cell clickable -->
+					<tr>
+						<td class="PDmeunu">
+							<a class="PDcell" id="home" href="home.html">Single Family Residence</a>
+						</td>  
+						<td class="PDmeunu">   
+							<a class="PDcell" id="condo" href="condo.html">Condo Association</a>
+						</td>
+						<td class="PDmeunu">     
+							<a class="PDcell" id="townhome" href="townhome.html">Townhome or Coop </a>
+						</td>
+					</tr>
+					<tr>
+						<td class="PDmeunu">   
+							<a class="PDcell" id="apartment" href="apartment.html">Apartment Complex</a>
+						</td>
+						<td class="PDmeunu">    
+							<a class="PDcell" id="vacation" href="vacation.html">Vacation Home / Timeshare</a>
+						</td>
+						<td class="PDmeunu">   
+							<a class="PDcell" id="fraternity" href="fraternity.html">Fraternity / Sorority</a>
+						</td>
+					</tr>
+				</table>
+				<p></p>
+			</div>
+
+		</div>
+	</div> <!--End of main column -->
+
+	<div class="col-md-1"> <!-- Right hand column -->
 	</div>
-  </div>
 
-	  <div class="col-md-1">
-	  </div>
-	  </div>
+</div>
+<!-- End of the container -->
 
+<!-- Start of the footer -->
 <footer class="footer">
 	<div class="container">
 		<p> | 
@@ -106,7 +107,7 @@
 		</p>
 	</div>
 </footer>
-	
+
 </body>
 
 </html>

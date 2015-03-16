@@ -1,0 +1,13 @@
+body {
+	color: black;
+	margin: 0 auto;
+	font-family: "Times New Roman";
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+}
