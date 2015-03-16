@@ -1,25 +1,17 @@
 body {
-	background-image: url(../images/housebackground.jpg);
+	background-image: url(../images/metalicbackground.jpg);
 	background-size: cover;
 	background-position: top center;
 }
 
-h1 {
-	text-align: center;
-	border-bottom: solid white;
+
+.pdcontent {
+	font-size: 20px;
 }
 
-li {
-	list-style-type: none;
-}
-
-#summary {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 26px;
+footer {
 	color: black;
-	background-color: gray;
-	line-height: 200%;
-	vertical-align: center;
+	text-align: center;
+	background-color: white;
+	padding: 2px;
 }
