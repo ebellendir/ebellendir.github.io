@@ -12,9 +12,9 @@ body {
 	margin-bottom: 0px;
 }
 
-footer {
+/*footer {  <<<< This is not working correctly. footer controls on each page instead
 	color: black;
 	text-align: center;
 	background-color: white;
 	padding: 2px;
-}
+/*/

@@ -4,6 +4,18 @@ body {
 	background-position: top center;
 }
 
+#containerlayout{
+	margin-left: 0px;
+}
+
+#leftCol {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.pdheaders{
+	font-size: 48px;
+}
 
 .pdcontent {
 	font-size: 20px;

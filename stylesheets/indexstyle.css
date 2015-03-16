@@ -72,5 +72,9 @@ h1 {
 	background-size: cover;
 }
 
-
-
+footer {
+	color: black;
+	text-align: center;
+	background-color: white;
+	padding: 2px;
+}
